@@ -162,3 +162,5 @@ confirmDeleteCategoryBtn.addEventListener('click', async function () {
     alert('An error occurred while deleting the category.');
   }
 });
+
+
