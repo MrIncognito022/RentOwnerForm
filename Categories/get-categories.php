@@ -1,7 +1,7 @@
 <?php
 include '../db_connection.php';
 
-// Query to fetch category data
+// Query to fetch lead data
 $sql = "SELECT * FROM Category";
 $result = $conn->query($sql);
 
@@ -16,7 +16,7 @@ if ($result === false) {
 if ($result->num_rows > 0) {
     // Fetch the results as an associative array
     $categories = [];
-    while ($row = $result->fetch_assoc()) {
+    while($row = $result->fetch_assoc()) {
         $categories[] = $row;
     }
 
