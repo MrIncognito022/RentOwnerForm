@@ -19,8 +19,8 @@
 <body>
     <h1>Add Rental Owner</h1>
     <form action="submit_form.php" method="POST" enctype="multipart/form-data">
-        <!-- Owner Information -->
-        <div class="form-section">
+        < Owner Information -->
+        <!-- <div class="form-section">
             <h3>Owner Information</h3>
             <label for="name">Name*</label>
             <input type="text" id="name" name="name" required>
@@ -63,7 +63,7 @@
             <input type="file" id="owner_photo" name="owner_photo" accept="image/*">
         </div>
 
-        <!-- Property Features -->
+         Property Features -->
         <div class="form-section">
             <h3>Property Features</h3>
             <label for="bedrooms">Bedrooms</label>
@@ -223,4 +223,4 @@
         <input type="submit" value="Submit" class="submit-btn">
     </form>
 </body>
-</html> -->
+</html> 
